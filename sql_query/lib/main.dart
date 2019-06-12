@@ -82,10 +82,10 @@ class myAppState extends State<myApp>{
 
   Future getData() async {
     var setting = new ConnectionSettings(
-      host: '208.91.198.24',
+      host: '',
       port: 3306,
-      user: 'protsuls_abc',
-      password: 'abc!@#\$%^&*()',
+      user: '',
+      password: '',
       db: 'protsuls_AppData'
     );
     var conn = await MySqlConnection.connect(setting);
